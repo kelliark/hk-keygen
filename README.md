@@ -1,6 +1,7 @@
 # hk-keygen
 Generate Hamster Kombat Playground Keys!
 
-join telegram : https://t.me/HkGenKey_bot
+telegram bot : https://t.me/HkGenKey_bot
+webiste bot : https://kelliark.github.io/hk-keygen/
 
 #####
