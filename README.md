@@ -58,4 +58,3 @@ For questions or feedback, contact Clark at [kanoscripting@gmail.com](mailto:kan
 ---
 
 Thank you for using HK Game Keys Generator! We hope you enjoy generating your game keys both on the web and through Telegram!
-```
