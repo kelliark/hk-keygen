@@ -207,3 +207,124 @@ button:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
+
+/* GitHub Link */
+.github-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #3498db;
+    background: #f5f7fa;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.github-link: {
+    background: #3498db;
+    color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Header to hold GitHub link */
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2b2d42; /* Darker and modern */
+    color: #edf2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container */
+.container {
+    background: linear-gradient(145deg, #3a3d52 0%, #2b2d42 100%);
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    padding: 35px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #edf2f4;
+    letter-spacing: 1.5px;
+    background: linear-gradient(145deg, #8e44ad, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Update Select Dropdown */
+select {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #8d99ae;
+    background: #2b2d42;
+    color: #edf2f4;
+}
+
+select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(145deg, #3498db 0%, #2980b9 100%);
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: linear-gradient(145deg, #2980b9 0%, #3498db 100%);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #8d99ae;
+    text-align: center;
+}
