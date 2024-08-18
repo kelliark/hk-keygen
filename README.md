@@ -53,7 +53,7 @@ If you find this project useful and would like to support its development, you c
 
 ## Contact
 
-For questions or feedback, contact Clark at [kanoscripting@gmail.com](mailto:kanoscripting@gmail.com).
+For questions or feedback, contact me at [kanoscripting@gmail.com](mailto:kanoscripting@gmail.com).
 
 ---
 
