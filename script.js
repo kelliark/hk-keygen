@@ -46,9 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const keysList = document.getElementById('keysList');
     const copyAllBtn = document.getElementById('copyAllBtn');
     const generatedKeysTitle = document.getElementById('generatedKeysTitle');
-    const gameSelect = document.getElementById('gameSelect');
-    const copyStatus = document.getElementById('copyStatus');
-    const telegramChannelBtn = document.getElementById('telegramChannelBtn');
+   
 
     const initializeLocalStorage = () => {
         const now = new Date().toISOString().split('T')[0];
@@ -274,5 +272,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     telegramChannelBtn.addEventListener('click', () => {
         window.open('https://telegram.me/Sam_Dm_bot', '_blank');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const games = {
+        1: { name: 'Riding Extreme 3D' },
+        2: { name: 'Chain Cube 2048' },
+        3: { name: 'My Clone Army' },
+        4: { name: 'Train Miner' },
+        5: { name: 'Merge Away' },
+        6: { name: 'Twerk Race 3D' }
+    };
+
+    const gameSelect = document.getElementById('gameSelect');
+    const generatedKeysTitle = document.getElementById('generatedKeysTitle');
+
+    // Update selected game dynamically when game is chosen from dropdown
+    gameSelect.addEventListener('change', function () {
+        const selectedGame = games[gameSelect.value];
+        if (selectedGame) {
+            generatedKeysTitle.textContent = `Selected Game: ${selectedGame.name}`;
+        } else {
+            generatedKeysTitle.textContent = 'Please select a game!';
+        }
     });
 });
