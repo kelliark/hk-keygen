@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const EVENTS_DELAY = 20000;
-    const MAX_KEYS_PER_GAME_PER_DAY = Infinity;  // Removed the daily limit
+    const MAX_KEYS_PER_GAME_PER_DAY = Infinity;  // Removed daily limit
 
     const games = {
         1: {
