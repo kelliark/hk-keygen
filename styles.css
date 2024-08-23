@@ -328,3 +328,13 @@ button:hover {
     color: #8d99ae;
     text-align: center;
 }
+
+body {
+    overflow: auto; /* Scrolls vertically */
+    overflow-x: hidden; /* Prevents horizontal scrolling if unnecessary */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Vertical stacking */
+}
