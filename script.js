@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const EVENTS_DELAY = 20000;
-    const MAX_KEYS_PER_GAME_PER_DAY = Infinity;  // Removed daily limit
+    const MAX_KEYS_PER_GAME_PER_DAY = Infinity;  // Removed the daily limit
 
     const games = {
         1: {
@@ -315,7 +315,10 @@ document.addEventListener('DOMContentLoaded', () => {
         3: { name: 'My Clone Army' },
         4: { name: 'Train Miner' },
         5: { name: 'Merge Away' },
-        6: { name: 'Twerk Race 3D' }
+        6: { name: 'Twerk Race 3D' },
+        7: { name: 'Polysphere' },
+        8: { name: 'Mud Racing' },
+        9: { name: 'Mow and Trim' }
     };
 
     const gameSelect = document.getElementById('gameSelect');
