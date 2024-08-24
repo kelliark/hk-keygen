@@ -8,10 +8,16 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Optional: If you want the container itself to have a max height and be scrollable */
+.container {
+    max-height: 90vh; /* Set a maximum height */
+    overflow-y: auto; /* Enable scrolling within the container */
 
 /* Container */
 .container {
@@ -329,12 +335,13 @@ button:hover {
     text-align: center;
 }
 
-body {
-    overflow: auto; /* Scrolls vertically */
-    overflow-x: hidden; /* Prevents horizontal scrolling if unnecessary */
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+    display: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: column; /* Vertical stacking */
+/* Hide scrollbar for IE, Edge, and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
