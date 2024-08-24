@@ -331,3 +331,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+window.addEventListener('scroll', function() {
+    const sidebar = document.getElementById('sidebar'); // Make sure the sidebar has this ID
+    if (window.scrollY > 0) {
+        sidebar.style.display = 'none';  // Hide sidebar when scrolling
+    } else {
+        sidebar.style.display = 'block';  // Show sidebar when at the top
+    }
+});
