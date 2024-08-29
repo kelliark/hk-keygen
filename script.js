@@ -313,13 +313,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const games = {
         1: { name: 'Riding Extreme 3D' },
         2: { name: 'Chain Cube 2048' },
-        3: { name: 'My Clone Army' },
-        4: { name: 'Train Miner' },
-        5: { name: 'Merge Away' },
-        6: { name: 'Twerk Race 3D' },
-        7: { name: 'Polysphere' },
-        8: { name: 'Mud Racing' },
-        9: { name: 'Mow and Trim' }
+        3: { name: 'Train Miner' },
+        4: { name: 'Merge Away' },
+        5: { name: 'Twerk Race 3D' },
+        6: { name: 'Polysphere' },
+        7: { name: 'Mud Racing' },
+        8: { name: 'Mow and Trim' }
+        9: { name: 'Cafe Dash' },
     };
 
     const gameSelect = document.getElementById('gameSelect');
