@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const games = {
         1: {
-            name: 'Riding Extreme 3D',
-            appToken: 'd28721be-fd2d-4b45-869e-9f253b554e50',
-            promoId: '43e35910-c168-4634-ad4f-52fd764a843f',
+            name: 'Zoopolls',
+            appToken: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
+            promoId: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
             timing: 30000,
-            attempts: 25,
+            attempts: 20,
         },
         2: {
             name: 'Chain Cube 2048',
@@ -46,11 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
             attempts: 20,
         },
         7: {
-            name: 'Mud Racing',
-            appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
-            promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
-            timing: 30000,
-            attempts: 20,
+            name: 'Gang Wars',
+            appToken: 'b6de60a0-e030-48bb-a551-548372493523',
+            promoId: 'c7821fa7-6632-482c-9635-2bd5798585f9',
+            timing: 40000,
+            attempts: 30,
         },
         8: {
             name: 'Mow and Trim',
@@ -311,13 +311,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     const games = {
-        1: { name: 'Riding Extreme 3D' },
+        1: { name: 'Zoopolls' },
         2: { name: 'Chain Cube 2048' },
         3: { name: 'Train Miner' },
         4: { name: 'Merge Away' },
         5: { name: 'Twerk Race 3D' },
         6: { name: 'Polysphere' },
-        7: { name: 'Mud Racing' },
+        7: { name: 'Gang Wars' },
         8: { name: 'Mow and Trim' },
         9: { name: 'Cafe Dash' },
     };
