@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', () => {
         5: { name: 'Twerk Race 3D' },
         6: { name: 'Polysphere' },
         7: { name: 'Mud Racing' },
-        8: { name: 'Mow and Trim' }
+        8: { name: 'Mow and Trim' },
         9: { name: 'Cafe Dash' },
     };
 
