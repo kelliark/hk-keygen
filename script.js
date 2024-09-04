@@ -66,6 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
             timing: 30000,
             attempts: 20,
+        },
+        10: {
+            name: 'Fluff Crusade',
+            appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+            promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+            timing: 30000,
+            attempts: 20,
         }
     };  
 
@@ -320,6 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
         7: { name: 'Gang Wars' },
         8: { name: 'Mow and Trim' },
         9: { name: 'Cafe Dash' },
+        10: { name: 'Fluff Crusade' },
     };
 
     const gameSelect = document.getElementById('gameSelect');
