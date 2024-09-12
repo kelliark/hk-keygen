@@ -72,6 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
             timing: 20000,
             attempts: 30,
+        },
+        11: {
+            name: 'Bouncemasters',
+            appToken: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+            promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+            timing: 20000,
+            attempts: 30,
         }
     };  
 
@@ -327,6 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
         8: { name: 'Mow and Trim' },
         9: { name: 'Fluff Crusade' },
         10: {name: 'Stone Age' },
+        11: {name: 'Bouncemasters' },
     };
 
     const gameSelect = document.getElementById('gameSelect');
