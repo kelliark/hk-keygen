@@ -79,6 +79,13 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
             timing: 20000,
             attempts: 30,
+        },
+        12: {
+            name: 'Hide Ball',
+            appToken: '4bf4966c-4d22-439b-8ff2-dc5ebca1a600',
+            promoId: '4bf4966c-4d22-439b-8ff2-dc5ebca1a600',
+            timing: 30000, 
+            attempts: 20,
         }
     };  
 
@@ -335,6 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
         9: { name: 'Fluff Crusade' },
         10: {name: 'Stone Age' },
         11: {name: 'Bouncemasters' },
+        12: {name: 'Hide Ball' },
     };
 
     const gameSelect = document.getElementById('gameSelect');
