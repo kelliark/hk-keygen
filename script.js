@@ -100,6 +100,27 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: '4bdc17da-2601-449b-948e-f8c7bd376553',
             timing: 20000, 
             attempts: 30,
+        },
+        15: {
+            name: 'Infected Frontier',
+            appToken: 'eb518c4b-e448-4065-9d33-06f3039f0fcb',
+            promoId: 'eb518c4b-e448-4065-9d33-06f3039f0fcb',
+            timing: 20000, 
+            attempts: 30,
+        },
+        16: {
+            name: 'Among Water',
+            appToken: 'daab8f83-8ea2-4ad0-8dd5-d33363129640',
+            promoId: 'daab8f83-8ea2-4ad0-8dd5-d33363129640',
+            timing: 20000,
+            attempts: 30,
+        },
+        17: {
+            name: 'Factory World',
+            appToken: 'd02fc404-8985-4305-87d8-32bd4e66bb16',
+            promoId: 'd02fc404-8985-4305-87d8-32bd4e66bb16',
+            timing: 20000,
+            attempts: 30,
         }
     };  
 
@@ -359,6 +380,9 @@ document.addEventListener('DOMContentLoaded', () => {
         12: {name: 'Hide Ball' },
         13: {name: 'Pin Out Master' },
         14: {name: 'Count Masters' },
+        15: {name: 'Infected Frontier' },
+        16: {name: 'Among Water' },
+        17: {name: 'Factory World' },
     };
 
     const gameSelect = document.getElementById('gameSelect');
